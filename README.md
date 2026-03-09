@@ -1,42 +1,91 @@
-# sv
+# CreditBuddy UK
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+CreditBuddy UK is an AI-powered platform designed to help UK consumers understand, improve, and manage their credit health.
 
-## Creating a project
+The platform provides educational tools, credit improvement guidance, and financial product insights to help users make smarter financial decisions and increase their chances of approval for loans, credit cards, and other financial services.
 
-If you're seeing this, you've probably already done this step. Congrats!
+---
 
-```sh
-# create a new project
-npx sv create my-app
-```
+## 🚀 Vision
 
-To recreate this project with the same configuration:
+Millions of people struggle to understand how credit scores work and how to improve them. CreditBuddy UK aims to simplify credit education and empower users with practical tools to build stronger financial profiles.
 
-```sh
-# recreate this project
-npx sv@0.12.5 create --template minimal --types ts --install npm .
-```
+Our goal is to become a trusted digital companion for credit improvement and financial wellbeing.
 
-## Developing
+---
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## 💡 Key Features (Planned)
 
-```sh
-npm run dev
+- Credit Score Education
+- Credit Improvement Roadmaps
+- Debt Management Guidance
+- Credit Eligibility Insights
+- Financial Product Recommendations
+- AI-powered financial guidance tools
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+---
 
-## Building
+## 🛠 Tech Stack
 
-To create a production version of your app:
+This project is built using modern web technologies:
 
-```sh
-npm run build
-```
+- SvelteKit – Frontend framework
+- Vite – Development environment
+- Firebase – Backend services and database
+- TypeScript – Type safety and scalability
 
-You can preview the production build with `npm run preview`.
+---
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## 📂 Project Structure
+
+
+---
+
+## ⚙️ Development Setup
+
+Clone the repository:
+https://github.com/moffatseaka/creditbuddy-uk.git
+
+Navigate to the project folder:
+
+creditbuddy-uk
+
+
+---
+
+## 📌 Project Status
+
+This project is currently under active development.
+
+Initial focus areas include:
+- Core platform structure
+- Credit education content
+- Financial guidance tools
+- User interface development
+
+---
+
+## 🤝 Contributions
+
+Contributions, ideas, and suggestions are welcome. If you'd like to contribute, feel free to open an issue or submit a pull request.
+
+---
+
+## 📄 License
+
+This project is currently under development and licensing terms will be added in the future.
+
+---
+
+## 🌍 Future Goals
+
+- AI-driven credit improvement assistant
+- Personalised financial recommendations
+- Credit building tools
+- Integration with financial service providers
+
+---
+
+## 👤 Author
+
+Created by the CreditBuddy UK project team.
