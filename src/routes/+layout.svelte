@@ -1,5 +1,6 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.svg';
+	import { AFFILIATE_LINKS } from '$lib/config/affiliate';
 </script>
 
 <svelte:head>
@@ -38,10 +39,35 @@
 				We may earn a small commission if you use some of the links on this site. This doesn&apos;t
 				affect our recommendations.
 			</p>
+			<div class="footer-services">
+				<p><strong>Recommended Services</strong></p>
+
+				<p>
+					<a 
+						href={AFFILIATE_LINKS.creditReport} 
+						target="_blank" 
+						rel="noopener noreferrer"
+					>
+						Get your credit report
+					</a>
+				</p>
+
+				<p>
+					<a 
+						href={AFFILIATE_LINKS.disputeHelp} 
+						target="_blank" 
+						rel="noopener noreferrer"
+					>
+						Dispute credit report errors
+					</a>
+				</p>
+			</div>
 			<p class="footer-links">
 				<a href="/privacy">Privacy Policy</a>
 				<span>•</span>
 				<a href="/terms">Terms of Use</a>
+				<span>•</span>
+				<a href="/how-we-make-money">How we make money</a>
 			</p>
 			<p class="copyright">© {new Date().getFullYear()} CreditBuddy UK</p>
 		</div>

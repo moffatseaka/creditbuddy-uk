@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { creditReportChecklist, type CreditReportCheckItem } from '$lib/logic/credit-report-checker';
-	import { AFFILIATE_REPORT_URL } from '$lib/config/affiliate';
+	import { AFFILIATE_LINKS } from '$lib/config/affiliate';
+	import RecommendedServices from '$lib/components/RecommendedServices.svelte';
 
 	const STORAGE_KEY = 'credit-report-checker-checked';
 
@@ -61,7 +62,7 @@
 		as "checked" is stored only in your browser using local storage, not on our servers.
 	</p>
 
-	{#if AFFILIATE_REPORT_URL}
+	{#if AFFILIATE_LINKS.creditReportL}
 		<div class="affiliate-callout">
 			<p>
 				If you need a fresh copy of your credit report, you can get one from our partner using the
@@ -69,7 +70,7 @@
 			</p>
 			<a
 				class="affiliate-link"
-				href={AFFILIATE_REPORT_URL}
+				href={AFFILIATE_LINKS.creditReport}
 				target="_blank"
 				rel="noopener noreferrer nofollow"
 			>
@@ -131,6 +132,25 @@
 		qualified adviser.
 	</p>
 </section>
+<div class="next-steps" style="margin-top: 2rem;">
+  <h3>Next Steps</h3>
+
+  <p>
+    Check your full credit report:
+    <a 
+      href={AFFILIATE_LINKS.creditReport} 
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+      Get your credit report
+    </a>
+  </p>
+
+  <p>
+    If you find errors, you can dispute them with a provider.
+  </p>
+</div>
+<RecommendedServices />
 
 <style>
 	h1 {

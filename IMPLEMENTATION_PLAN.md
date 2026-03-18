@@ -397,8 +397,8 @@ Use the exact names your SvelteKit/Firebase setup expects (e.g. Vite uses `VITE_
 
 Before going live, confirm:
 
-- [ ] All three tools work and calculations are correct (especially CCJ dates).
-- [ ] No credit data or sensitive inputs are stored on the server or in Firebase (except optional email in `subscribers`).
+- [ x] All three tools work and calculations are correct (especially CCJ dates).
+- [x ] No credit data or sensitive inputs are stored on the server or in Firebase (except optional email in `subscribers`).
 - [ ] Firestore rules are deny-by-default; only the intended create is allowed for `subscribers`.
 - [ ] Privacy Policy and Terms are in place; email capture has explicit consent and links to Privacy.
 - [ ] Affiliate disclosure is visible.

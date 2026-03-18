@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { plannerDays, type PlannerDay } from '$lib/logic/credit-boost-planner';
-	import { AFFILIATE_REPORT_URL } from '$lib/config/affiliate';
+	import { AFFILIATE_LINKS } from '$lib/config/affiliate';
+	import RecommendedServices from '$lib/components/RecommendedServices.svelte';
 
 	const STORAGE_KEY = 'credit-boost-planner-done-days';
 
@@ -59,7 +60,7 @@
 		locally on your device using local storage, not on our servers.
 	</p>
 
-	{#if AFFILIATE_REPORT_URL}
+	{#if AFFILIATE_LINKS.creditReport}
 		<div class="affiliate-callout">
 			<p>
 				Many of these actions work best when you have a recent copy of your credit report. You can
@@ -67,7 +68,7 @@
 			</p>
 			<a
 				class="affiliate-link"
-				href={AFFILIATE_REPORT_URL}
+				href={AFFILIATE_LINKS.creditReport}
 				target="_blank"
 				rel="noopener noreferrer nofollow"
 			>
@@ -107,6 +108,20 @@
 		This 30-day plan is general guidance only. If you are struggling with debt or repayments, it may
 		help to speak to a free UK debt advice charity or another trusted adviser.
 	</p>
+
+<p>
+  Start by getting your full credit report:
+  <a 
+    href={AFFILIATE_LINKS.creditReport} 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    Get your free credit report
+  </a>
+</p>
+
+<RecommendedServices />
+
 </section>
 
 <style>
