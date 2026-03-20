@@ -1,7 +1,7 @@
 import type { RequestHandler } from '@sveltejs/kit';
 import { PUBLIC_SITE_URL } from '$env/static/public';
 
-const ROUTES = [
+export const ROUTES = [
 	'/', // home
 	'/about',
 	'/privacy',
