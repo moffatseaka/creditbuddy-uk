@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { AFFILIATE_LINKS } from '$lib/config/affiliate';
+	
 </script>
 
 <div class="recommended-services">
@@ -9,7 +9,7 @@
 		<p class="title">Check your credit report</p>
 		<p class="desc">See your full credit profile and identify any issues.</p>
 		<a 
-			href={AFFILIATE_LINKS.creditReport} 
+			href="#"
 			target="_blank" 
 			rel="noopener noreferrer"
 			class="link"
@@ -22,7 +22,7 @@
 		<p class="title">Fix errors on your report</p>
 		<p class="desc">If something looks wrong, you can dispute it with a provider.</p>
 		<a 
-			href={AFFILIATE_LINKS.disputeHelp} 
+			href="#"
 			target="_blank" 
 			rel="noopener noreferrer"
 			class="link"

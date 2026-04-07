@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { creditReportChecklist, type CreditReportCheckItem } from '$lib/logic/credit-report-checker';
-	import { AFFILIATE_LINKS } from '$lib/config/affiliate';
+	
 	import RecommendedServices from '$lib/components/RecommendedServices.svelte';
 
 	const STORAGE_KEY = 'credit-report-checker-checked';
@@ -62,26 +62,7 @@
 		as "checked" is stored only in your browser using local storage, not on our servers.
 	</p>
 
-	{#if AFFILIATE_LINKS.creditReportL}
-		<div class="affiliate-callout">
-			<p>
-				If you need a fresh copy of your credit report, you can get one from our partner using the
-				link below.
-			</p>
-			<a
-				class="affiliate-link"
-				href={AFFILIATE_LINKS.creditReport}
-				target="_blank"
-				rel="noopener noreferrer nofollow"
-			>
-				Get your credit report
-			</a>
-			<p class="affiliate-note">
-				We may earn a small commission if you use this link. This doesn&apos;t affect our
-				recommendations.
-			</p>
-		</div>
-	{/if}
+	
 
 	<div class="summary">
 		<p>
@@ -138,7 +119,7 @@
   <p>
     Check your full credit report:
     <a 
-      href={AFFILIATE_LINKS.creditReport} 
+      href="#" 
       target="_blank" 
       rel="noopener noreferrer"
     >

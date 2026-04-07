@@ -1,6 +1,6 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.svg';
-	import { AFFILIATE_LINKS } from '$lib/config/affiliate';
+	
 </script>
 
 <svelte:head>
@@ -44,7 +44,7 @@
 
 				<p>
 					<a 
-						href={AFFILIATE_LINKS.creditReport} 
+						href="#" 
 						target="_blank" 
 						rel="noopener noreferrer"
 					>
@@ -54,7 +54,7 @@
 
 				<p>
 					<a 
-						href={AFFILIATE_LINKS.disputeHelp} 
+						href="#"
 						target="_blank" 
 						rel="noopener noreferrer"
 					>

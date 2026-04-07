@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { plannerDays, type PlannerDay } from '$lib/logic/credit-boost-planner';
-	import { AFFILIATE_LINKS } from '$lib/config/affiliate';
+	
 	import RecommendedServices from '$lib/components/RecommendedServices.svelte';
 
 	const STORAGE_KEY = 'credit-boost-planner-done-days';
@@ -60,7 +60,7 @@
 		locally on your device using local storage, not on our servers.
 	</p>
 
-	{#if AFFILIATE_LINKS.creditReport}
+	
 		<div class="affiliate-callout">
 			<p>
 				Many of these actions work best when you have a recent copy of your credit report. You can
@@ -68,7 +68,7 @@
 			</p>
 			<a
 				class="affiliate-link"
-				href={AFFILIATE_LINKS.creditReport}
+				href="#"
 				target="_blank"
 				rel="noopener noreferrer nofollow"
 			>
@@ -112,7 +112,7 @@
 <p>
   Start by getting your full credit report:
   <a 
-    href={AFFILIATE_LINKS.creditReport} 
+    href="#"
     target="_blank" 
     rel="noopener noreferrer"
   >
