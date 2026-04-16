@@ -60,26 +60,19 @@
 		locally on your device using local storage, not on our servers.
 	</p>
 
-	
-		<div class="affiliate-callout">
+	<div class="affiliate-callout">
 			<p>
 				Many of these actions work best when you have a recent copy of your credit report. You can
 				get one from our partner using the link below.
 			</p>
-			<a
-				class="affiliate-link"
-				href="#"
-				target="_blank"
-				rel="noopener noreferrer nofollow"
-			>
+			<a class="affiliate-link" href="/tools/credit-report-checker">
 				Get your credit report
 			</a>
 			<p class="affiliate-note">
 				We may earn a small commission if you use this link. This doesn&apos;t affect our
 				recommendations.
 			</p>
-		</div>
-	{/if}
+	</div>
 
 	<div class="summary">
 		<p>
@@ -111,11 +104,7 @@
 
 <p>
   Start by getting your full credit report:
-  <a 
-    href="#"
-    target="_blank" 
-    rel="noopener noreferrer"
-  >
+  <a href="/tools/credit-report-checker">
     Get your free credit report
   </a>
 </p>

@@ -118,11 +118,7 @@
 
   <p>
     Check your full credit report:
-    <a 
-      href="#" 
-      target="_blank" 
-      rel="noopener noreferrer"
-    >
+    <a href="/tools/credit-report-checker">
       Get your credit report
     </a>
   </p>
@@ -231,36 +227,6 @@
 	.item-body p {
 		margin: 0 0 0.5rem;
 		font-size: 0.9rem;
-	}
-
-	.affiliate-callout {
-		margin: 1rem 0 1.25rem;
-		padding: 0.9rem 1rem;
-		border-radius: 0.75rem;
-		background: #eff6ff;
-		border: 1px solid #bfdbfe;
-		font-size: 0.9rem;
-	}
-
-	.affiliate-link {
-		display: inline-block;
-		margin-top: 0.5rem;
-		padding: 0.4rem 0.9rem;
-		border-radius: 999px;
-		background: #2563eb;
-		color: #f9fafb;
-		text-decoration: none;
-		font-size: 0.9rem;
-	}
-
-	.affiliate-link:hover {
-		background: #1d4ed8;
-	}
-
-	.affiliate-note {
-		margin-top: 0.4rem;
-		font-size: 0.8rem;
-		color: #4b5563;
 	}
 
 	.note {

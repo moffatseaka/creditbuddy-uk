@@ -43,21 +43,13 @@
 				<p><strong>Recommended Services</strong></p>
 
 				<p>
-					<a 
-						href="#" 
-						target="_blank" 
-						rel="noopener noreferrer"
-					>
+					<a href="/tools/credit-report-checker">
 						Get your credit report
 					</a>
 				</p>
 
 				<p>
-					<a 
-						href="#"
-						target="_blank" 
-						rel="noopener noreferrer"
-					>
+					<a href="/about">
 						Dispute credit report errors
 					</a>
 				</p>

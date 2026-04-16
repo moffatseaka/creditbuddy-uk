@@ -1,7 +1,7 @@
 import type { RequestHandler } from '@sveltejs/kit';
-import { PUBLIC_SITE_URL } from '$env/static/public';
+import { env } from '$env/dynamic/public';
 
-export const ROUTES = [
+const ROUTES = [
 	'/', // home
 	'/about',
 	'/privacy',
@@ -14,7 +14,7 @@ export const ROUTES = [
 export const prerender = true;
 
 export const GET: RequestHandler = async () => {
-	const base = (PUBLIC_SITE_URL || 'http://localhost:5173').replace(/\/+$/, '');
+	const base = (env.PUBLIC_SITE_URL || 'http://localhost:5173').replace(/\/+$/, '');
 
 	const urls = ROUTES.map((path) => {
 		const loc = `${base}${path}`;

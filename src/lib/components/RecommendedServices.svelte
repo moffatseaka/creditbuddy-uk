@@ -9,9 +9,7 @@
 		<p class="title">Check your credit report</p>
 		<p class="desc">See your full credit profile and identify any issues.</p>
 		<a 
-			href="#"
-			target="_blank" 
-			rel="noopener noreferrer"
+			href="/tools/credit-report-checker"
 			class="link"
 		>
 			Get your credit report →
@@ -22,9 +20,7 @@
 		<p class="title">Fix errors on your report</p>
 		<p class="desc">If something looks wrong, you can dispute it with a provider.</p>
 		<a 
-			href="#"
-			target="_blank" 
-			rel="noopener noreferrer"
+			href="/about"
 			class="link"
 		>
 			Dispute errors →
